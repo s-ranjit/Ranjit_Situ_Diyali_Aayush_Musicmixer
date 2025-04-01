@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music Mixer Checkpoint</title>
+    <title>Music Mixer</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -13,10 +13,15 @@
         <h1> Mix, Match &amp; Create</h1>
     </header>
     <main>
-        <div id="drop-area">
-            <button>Reset</button>
-            <p>Drag &amp; Drop Your Music Files Here</p>
+        <div class="controls">
+            <button id="playAll">Play</button>
+            <button id="pauseAll">Pause</button>
+            <button id="reset">Reset</button>
         </div>
+        <audio id="audio1" src="audio/drum.mp3"></audio>
+        <audio id="audio2" src="audio/guitar.mp3"></audio>
+        <audio id="audio3" src="audio/piano.mp3"></audio>
+        <audio id="audio4" src="audio/saxophone.mp3"></audio>
         <div class="instruments">
             <img src="images/drummer.svg" alt="dummer">
             <img src="images/guitarist.svg" alt="guitarist">
@@ -24,6 +29,12 @@
             <img src="images/saxophonist.svg" alt="saxophonist">
         </div>
     </main>
+    <div id="dropBoxes">
+        <div class="dropBox"></div>
+        <div class="dropBox"></div>
+        <div class="dropBox"></div>
+        <div class="dropBox"></div>
+    </div>
     <footer>
         <p>All rights reserve &copy; 2025 Music Mixer</p>
     </footer>
