@@ -26,7 +26,30 @@ img {
     justify-content: space-around;
     align-items: center;
 }
+#dropBoxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto;
+}
 
+.dropBox {
+    width: 200px;
+    height: 200px;
+    border: 2px dashed #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #555;
+   
+}
+.dropped {
+    transform: scale(2.5); 
+    transition: transform 0.3s ease; 
+}
 footer {
     text-align: center;
     font-size: 14px;
