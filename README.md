@@ -2,11 +2,12 @@
 This repo is for musicmixer assignment for Multimedia Authoring class. In this assignment we have created a drag and drop function where the images can be dropped in the created drop box and the music starts playing. This also includes controllers which are play, pause, reset buttons and volume slider to adjust volume.
 
 # Features
-- Drag and Drop: Users can drag the imgaes with different musicians and drop them in the drop zone and the similar music starts playing.
-- Audio: Every musicians / images is linked with an audio which plays when you drop in the drop zone.
+- Drag and Drop: Users can drag and drop the images with different musicians and the music starts playing accordingly.
+- Audio: Every musicians / images is linked with an audio.
 - Play All: Click on play all the music starts playing.
 - Pause All: Click on pause all to pause the music.
 - Reset: Click on reset to stop playing music and also all the images from the drop zone goes back to their original position.
+- Volume Slider: Adjust sound of an audio
 
 ## Installation
 No installation needed. Just download the zip file, unzip it, and open the index file in a browser of your choice.
